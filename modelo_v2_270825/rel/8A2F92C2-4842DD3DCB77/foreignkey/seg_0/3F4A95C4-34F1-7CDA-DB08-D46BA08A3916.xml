@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F4A95C4-34F1-7CDA-DB08-D46BA08A3916" containerWithKeyObject="5441B802-B43C-F314-3CB9-89AB11F03946" localFKIndex="2297AB57-2837-48B9-6188-7DB9D1073F39" name="patrocinadores_rubros_patrocinador_rubro_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>D7583634-DDC0-2159-D2AA-B85AE3B5E507</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<referredTableLongName>patrocinador_rubro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D564EC0-4284-62F3-E706-F906500825BC</referredTableID>
+<keyObject>87F6673E-846E-02BE-2E63-6775FEE77516</keyObject>
+<referredKeyID>87F6673E-846E-02BE-2E63-6775FEE77516</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

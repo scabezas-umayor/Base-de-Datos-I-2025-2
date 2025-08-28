@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="persona_generos" directorySegmentName="seg_0" id="EB0B6E6C-49CA-08B2-FA92-8F8AB96A2E96">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:27:13 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<sourcePk>96977396-13ED-0577-D2F8-076126D9E55C</sourcePk>
+<targetPk>E085332D-DB1A-FF8F-CBAB-357D11E4F32E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0E311DC9-7EEC-D4F9-69E5-40CE4BF65A92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6EAEC0B-97E7-BA92-BFE5-6D9AB764A5A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="id" id="E83AAE27-31A1-92BA-3F70-9F2D28A361F7">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:29:46 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</attribute>
+<attribute name="nombres" id="F4A5456E-0AA9-080A-C90A-229F9621C997">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:30:28 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</attribute>
+<attribute name="activo" id="9295B77E-5A25-9FF4-F5CF-A83E7D6D77F1">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:29:55 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</attribute>
+<attribute name="created_at" id="2C57EE70-B632-68D7-B0F0-2553A1DA923A">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:30:07 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+<attribute name="updated_at" id="36B852AE-74C8-9480-94EF-8100E4354805">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:30:22 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

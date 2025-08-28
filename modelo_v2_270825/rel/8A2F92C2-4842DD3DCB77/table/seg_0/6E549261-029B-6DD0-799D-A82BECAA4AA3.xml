@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E549261-029B-6DD0-799D-A82BECAA4AA3" name="persona">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>0E311DC9-7EEC-D4F9-69E5-40CE4BF65A92</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DF81BC4F-FFA1-F081-5A42-D33E4E27CCDB">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>8EA32F35-5A39-E247-4EF2-9A7EC8C2E4C2</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D440DF44-04C1-54A7-0776-B84FB96803E8">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>A8F97441-8DF0-49C0-1241-A15EA330B843</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="98ACCCB2-0FAD-42B2-92B8-BA4C588955BD">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>E3A2C774-6495-1057-2885-8517F5024378</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="409BAF34-B0C9-5B7D-1312-45F45C8AD50D">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>87F25DA7-47AD-75AF-E0A8-E13EF251F7DB</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="3F527A4C-732A-2D4B-1E29-EC7FCC6A07AC">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>968C9731-D186-0166-8A62-1D70E27F74D5</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_paterno" id="477234CA-8E03-0168-AC87-A1B6937BD18D">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>14833EB6-E27F-7934-E2BA-3E3DA5B7C122</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_materno" id="6B0F57F4-D1DC-7C74-924C-AD43A037B694">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>C2C74348-72FE-EA63-7EC8-C001B4FFDDAD</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="C384EF26-8AAF-0713-C6D1-95B3494540E3">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>9D1AA3A4-B737-6383-3BC3-D3750BAF66F4</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_orden_id" id="E677C1B1-783D-C68C-8F1E-6BFC10AEE187">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>6E4F08B0-A64D-54E5-2AC2-A5CCB103D02B</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CD3A5E7-DE11-41AB-6A56-CA319333CBC1" referredColumn="77B40566-064C-111D-AA31-245EB71B3C58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="668C1FD4-A74F-EF43-0D2D-9200CD4E950F" name="persona_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>96977396-13ED-0577-D2F8-076126D9E55C</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF81BC4F-FFA1-F081-5A42-D33E4E27CCDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2E01C27-5282-456D-DC1A-859BFFB6E46F" name="persona_apellido_orden_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>F553A11B-4172-8431-4CB9-F8A0B2391CAD</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E677C1B1-783D-C68C-8F1E-6BFC10AEE187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

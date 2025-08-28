@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5441B802-B43C-F314-3CB9-89AB11F03946" name="patrocinadores_rubros">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="150453B9-65EE-28EF-B425-0C4959FD5DD2">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:09:36 UTC</createdTime>
+<generatorID>9AC6B28A-9E36-5D73-366D-131C1E78999B</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="patrocinador_id" id="32351304-D7AE-5FD9-916E-63C578DC89D7">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6FDDF7B-2AFD-241E-5DE9-40992DE56A48" referredColumn="31134487-5E04-E4BB-21E4-31987382C5AF"/>
+</associations>
+</Column>
+<Column name="patrocinador_rubro_id" id="4AC47474-A11B-6D25-E595-7C09399F2E1F">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F4A95C4-34F1-7CDA-DB08-D46BA08A3916" referredColumn="E3EC01AC-515A-6DDA-E1B5-F8F3ACC5CF90"/>
+</associations>
+</Column>
+<Column name="created_at" id="EF523BB4-9B3F-2C9B-BFB0-573083148581">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>C6E8837C-9938-394A-F37B-A497B019DE8F</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="updated_at" id="FF755272-DAB3-B8D2-FBED-9290DA48957F">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>74EAE9BD-5DF5-6E39-827A-73C61EAA1403</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="activo" id="F52879BD-54D6-C629-AE70-097A47FB20CF">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>75FA58C6-DE84-E939-B5D9-E1CD9A9A5066</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11E9E847-1965-FF4C-25CB-BA12C0AB47B2" name="patrocinadores_rubros_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32351304-D7AE-5FD9-916E-63C578DC89D7"/>
+<colUsage columnID="4AC47474-A11B-6D25-E595-7C09399F2E1F"/>
+<colUsage columnID="150453B9-65EE-28EF-B425-0C4959FD5DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0C43967-A91F-9BC8-CAA0-B230A401244E" name="patrocinadores_rubros_patrocinador_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>D7583634-DDC0-2159-D2AA-B85AE3B5E507</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32351304-D7AE-5FD9-916E-63C578DC89D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2297AB57-2837-48B9-6188-7DB9D1073F39" name="patrocinadores_rubros_patrocinador_rubro_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>D7583634-DDC0-2159-D2AA-B85AE3B5E507</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AC47474-A11B-6D25-E595-7C09399F2E1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

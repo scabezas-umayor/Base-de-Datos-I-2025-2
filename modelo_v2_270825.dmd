@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_v2_270825" id="ECA622C9-31D3-7594-78E6-6B32F1056042" version="3.5">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 13:45:08 UTC</createdTime>
+<ownerDesignName>modelo_v1_200825</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ECA622C9-31D3-7594-78E6-6B32F1056042</designId>
+</OSDM_Design>

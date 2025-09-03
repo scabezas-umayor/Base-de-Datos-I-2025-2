@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A79D2296-3EBE-5ED5-1CDE-CBB31E6FC599" name="camponato_detalle">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>50EC77BE-D3ED-4F87-86A0-EB7114BCBC61</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3E1AD8F1-88AF-A75A-EC9D-BF42AB5A5720">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>23C5C096-91AB-7B60-C3FC-BED8E3162328</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="80F8D2EA-8A10-9EB6-797E-8943427142C5">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>E9A5943F-B24B-329A-491E-A54FCE89B145</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="C3B72CE9-0846-D50A-3C1B-020E173EC5B2">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>FF77E133-6558-1066-5A7B-1DF84352C58B</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="6C38BB5A-6884-BB17-F2DB-48D450301034">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>0A3DA6F0-72CA-37AD-E374-0DE2C5E721F1</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="camponato_id" id="F6F800CB-21C8-C96F-08EE-7A2B62130D21">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>2858CB2A-29DE-7EFC-027A-2BFD728D60DB</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91E27C05-019E-243B-B94E-FBACCF76D167" referredColumn="4AAC4201-A1A2-6A9D-7E81-6B1C4166C740"/>
+</associations>
+</Column>
+<Column name="equipo_id" id="8FE22A53-5A0C-D17C-7B9E-6A01C7920778">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>16ECAC5B-32DD-6666-0E65-FA349CBABCEB</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="894361E5-C5FA-DD3E-64E0-017A79D49175" referredColumn="AC5A0E11-8B5C-8ADB-0FC5-5505FCD4EEB0"/>
+</associations>
+</Column>
+<Column name="integrante_id" id="8E1D2D3F-4B37-B78D-2FE9-C78AFC76BC4B">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>CCC555B8-0493-3A3E-450E-C1F9902CA45A</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFE1005E-EFA8-FB01-03EC-1CA8EA1A0CD9" referredColumn="2C82269C-E795-950A-89DB-CD76B9789F0A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C23EA0B0-05FC-4038-0EA2-A3632E4065EF" name="camponato_detalle_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>66EE04A9-43EF-DC30-9907-BE07193872F3</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E1AD8F1-88AF-A75A-EC9D-BF42AB5A5720"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A870C6C-9218-45E1-C5DD-996A9C5BC18A" name="camponato_detalle_camponato_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>1DEF3ADE-AAE7-C9C2-68F5-A4E35922A1C4</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6F800CB-21C8-C96F-08EE-7A2B62130D21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60B7D447-E39C-5163-9289-C72B34F1B209" name="camponato_detalle_equipo_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>330A0185-FF1F-7495-3FDC-529F7EBFB554</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FE22A53-5A0C-D17C-7B9E-6A01C7920778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7581B1BF-8BC5-3C13-4849-A29A5BCA6147" name="camponato_detalle_integrante_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>077DECCD-183C-9594-7DEE-BDB1D50DB2E5</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E1D2D3F-4B37-B78D-2FE9-C78AFC76BC4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

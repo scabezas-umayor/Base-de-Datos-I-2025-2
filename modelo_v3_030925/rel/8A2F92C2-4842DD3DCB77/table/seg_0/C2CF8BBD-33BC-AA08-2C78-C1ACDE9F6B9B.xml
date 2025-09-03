@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2CF8BBD-33BC-AA08-2C78-C1ACDE9F6B9B" name="camponato_organizadores">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="camponato_id" id="912784E0-F232-1C2D-850F-7634B3F5F4C3">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4A434F2-B168-24B4-71D7-85D91018A750" referredColumn="4AAC4201-A1A2-6A9D-7E81-6B1C4166C740"/>
+</associations>
+</Column>
+<Column name="organizador_id" id="DF8B0AC6-D966-0E84-053C-DFA55BBEC76E">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="458F1965-D578-E70D-1280-D2A277A56110" referredColumn="C347899B-EDB7-88EF-6A83-297EDD5F9138"/>
+</associations>
+</Column>
+<Column name="id" id="F95E44EF-486D-C8D4-62D3-9970A17EB35E">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>C82CEE24-CC09-AB56-DB06-FC91D9A1B2D2</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="activo" id="E3051906-FFAA-03BE-49AB-FE2FD76E03A6">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>6990A1DE-CD44-9502-7579-2D506B7D656C</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="created_at" id="964C71A2-F959-2580-D472-39B45D87521F">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>069AAC9D-9E0E-3265-EDF9-952C1CEC0BAB</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="updated_at" id="71C2EF56-0848-030D-9883-9A5C55CDE1E9">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>8CA446A7-5337-3557-3BC1-07E1FBA3CCEF</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB516601-CEFF-4AB5-A829-30C42F9DA33A" name="camponato_organizadores_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="912784E0-F232-1C2D-850F-7634B3F5F4C3"/>
+<colUsage columnID="DF8B0AC6-D966-0E84-053C-DFA55BBEC76E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7FCAA78-C1C5-69D1-846C-D5A66ECA1AA5" name="camponato_organizadores_camponato_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>49231B14-C45B-BF5B-4C9C-5A57E0FA570C</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="912784E0-F232-1C2D-850F-7634B3F5F4C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA9EE63B-7D83-6087-33EB-D1CBD5CB3FE6" name="camponato_organizadores_organizador_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>49231B14-C45B-BF5B-4C9C-5A57E0FA570C</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF8B0AC6-D966-0E84-053C-DFA55BBEC76E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

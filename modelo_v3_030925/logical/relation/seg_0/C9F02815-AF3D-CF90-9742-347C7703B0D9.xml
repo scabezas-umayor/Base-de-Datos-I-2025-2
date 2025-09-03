@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="persona_direcciones" directorySegmentName="seg_0" id="C9F02815-AF3D-CF90-9742-347C7703B0D9">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:12:09 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<sourcePk>96977396-13ED-0577-D2F8-076126D9E55C</sourcePk>
+<targetPk>92D75195-A71F-3367-1B7A-FC806499E4F7</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0E311DC9-7EEC-D4F9-69E5-40CE4BF65A92</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>344F2150-082C-26EE-FABD-615038A4242D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="id" id="CB0992B4-7AEF-FEB4-CDFB-0377AE0E49FE">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:12:28 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</attribute>
+<attribute name="activo" id="8FBF70C0-B36E-F91B-FBAB-A92A77795E11">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:12:40 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</attribute>
+<attribute name="created_at" id="711919CB-B7C9-8FF4-290F-4B789D7A814A">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:12:48 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+<attribute name="updated_at" id="B85C51F4-E86B-33AE-44A1-26F63796B11C">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:12:58 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

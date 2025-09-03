@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BB9D574-C5FB-539E-2347-F69DE52C9611" name="persona_direcciones">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="persona_id" id="A4119272-474A-350C-F3BF-193A6A44A3C8">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C40CBCA0-7309-BE78-E6E1-59E625D21DC8" referredColumn="DF81BC4F-FFA1-F081-5A42-D33E4E27CCDB"/>
+</associations>
+</Column>
+<Column name="direccion_id" id="D224E327-53FB-F75A-05B0-88FB7FA8680E">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A9D282F-FE8B-9405-7B95-7B64B35BED1D" referredColumn="398991D7-900F-8EC1-4C96-8A3ACFFDCFCF"/>
+</associations>
+</Column>
+<Column name="id" id="91E5B145-A066-5849-5D51-E8E79B942C8A">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>CB0992B4-7AEF-FEB4-CDFB-0377AE0E49FE</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="activo" id="65B43F22-5C2D-537F-47A6-37563B0FB2C8">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>8FBF70C0-B36E-F91B-FBAB-A92A77795E11</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="created_at" id="FF7675DD-F2BE-9554-F381-C5978831D782">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>711919CB-B7C9-8FF4-290F-4B789D7A814A</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="updated_at" id="549CEE11-79C1-29F7-D1AF-A5E5A67FCA82">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>B85C51F4-E86B-33AE-44A1-26F63796B11C</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1ED7161-C0CA-99FE-694E-07735887919C" name="persona_direcciones_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4119272-474A-350C-F3BF-193A6A44A3C8"/>
+<colUsage columnID="D224E327-53FB-F75A-05B0-88FB7FA8680E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE5D57F7-E335-C426-5950-AA9E17A8E84F" name="persona_direcciones_persona_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>C9F02815-AF3D-CF90-9742-347C7703B0D9</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4119272-474A-350C-F3BF-193A6A44A3C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC19BC5E-6A22-8292-6F9E-D530714F1FCE" name="persona_direcciones_direccion_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>C9F02815-AF3D-CF90-9742-347C7703B0D9</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D224E327-53FB-F75A-05B0-88FB7FA8680E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

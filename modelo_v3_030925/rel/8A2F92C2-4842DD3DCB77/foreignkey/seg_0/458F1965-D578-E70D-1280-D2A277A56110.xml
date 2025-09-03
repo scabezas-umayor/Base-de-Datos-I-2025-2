@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="458F1965-D578-E70D-1280-D2A277A56110" containerWithKeyObject="C2CF8BBD-33BC-AA08-2C78-C1ACDE9F6B9B" localFKIndex="AA9EE63B-7D83-6087-33EB-D1CBD5CB3FE6" name="camponato_organizadores_organizador_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>49231B14-C45B-BF5B-4C9C-5A57E0FA570C</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<referredTableLongName>organizador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47DBD36D-9CFA-7803-F231-D4E1F5DF414A</referredTableID>
+<keyObject>F270C2E2-EE7A-E6AF-5076-D5B1FA2FA5F6</keyObject>
+<referredKeyID>F270C2E2-EE7A-E6AF-5076-D5B1FA2FA5F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

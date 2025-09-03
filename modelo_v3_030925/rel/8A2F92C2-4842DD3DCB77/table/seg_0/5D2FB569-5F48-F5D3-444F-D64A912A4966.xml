@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D2FB569-5F48-F5D3-444F-D64A912A4966" name="nacionalidad">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>9B111F72-39C0-864B-E5DF-5C868C7B240C</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="54BEC8F3-1201-8813-06E2-9653065CD686">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>0EC90731-BC87-0A33-B4C1-C8B67FE0050A</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5CACD84E-9F64-F5F5-75BD-51C4A14C8EDE">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>E23B150E-AC37-4B13-F188-713CD90EA625</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="E9AC43C0-15F7-2C05-1002-E883396893D6">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>B2D59C5D-0F6C-7105-FFD2-496F6D898861</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="54B74078-0895-F0C1-B7CD-C73800DAAEBB">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>875D6926-D8A3-BD79-5B56-76A2B4D13909</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="02B861CC-7A53-08F7-7D8D-E00C0C262B27">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>1868E5CF-76C6-BC65-4428-503EBF0101A8</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAF95F7A-A48A-7D9D-1621-4C7DF979D528" name="nacionalidad_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:35:19 UTC</createdTime>
+<generatorID>F05337F4-FAF1-6E74-DDD4-591FE6C89ACB</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54BEC8F3-1201-8813-06E2-9653065CD686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

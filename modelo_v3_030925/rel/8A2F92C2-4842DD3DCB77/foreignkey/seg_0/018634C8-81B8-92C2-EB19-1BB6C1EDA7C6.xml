@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="018634C8-81B8-92C2-EB19-1BB6C1EDA7C6" containerWithKeyObject="C554B848-C51D-795C-0121-33422F4B99C1" localFKIndex="2F5781AB-B507-9847-0066-E07E4547B2C1" name="camponato_recinto_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>F4FBBF02-E501-90E9-BE2D-13AEC8B1642F</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<referredTableLongName>recinto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>846A6062-D4A7-25D0-AD83-06929FDD4FC2</referredTableID>
+<keyObject>CCD23EAF-BE84-8C29-0EE8-C33CC8373D9E</keyObject>
+<referredKeyID>CCD23EAF-BE84-8C29-0EE8-C33CC8373D9E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

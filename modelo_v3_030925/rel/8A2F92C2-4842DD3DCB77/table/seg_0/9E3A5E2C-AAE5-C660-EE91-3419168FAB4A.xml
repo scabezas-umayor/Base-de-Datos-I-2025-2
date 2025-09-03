@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E3A5E2C-AAE5-C660-EE91-3419168FAB4A" name="medio_contacto">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>F80B4FC5-1666-EC22-FB0C-EF9602A36F7D</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8148464F-1F51-AB1C-673E-F80709BBF923">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>BC2E6DE4-57DE-1FD9-B0B3-E5D1798314DF</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BEC5A314-8FF5-D135-C867-7357FB8B675A">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>6E75E104-6C92-6028-D7F1-7220BAC291A0</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="C25B679A-8415-DEE6-34D0-C03DE09E29D7">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>C31031D1-7877-73D6-F1AE-11E1D0C435CD</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="07A474DC-06C3-AACB-C023-4FCB2DFF3DE1">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>35A3D64D-533A-75C5-EAD9-E096E242F315</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="FECB54A3-3B3B-F0AC-6011-913E25F80F4F">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>B31EB067-982E-7FD6-7A4E-CBB7CFF737A4</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7307A420-3926-B9F8-DC52-E16D2D77F30A" name="medio_contacto_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>40D1A3AB-DFEA-D6B3-112C-BFC6C5E1B7C2</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8148464F-1F51-AB1C-673E-F80709BBF923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

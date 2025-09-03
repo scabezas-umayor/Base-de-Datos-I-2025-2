@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7971E3A-D11A-A8BC-B0C5-40ED20FA4CD0" name="direccion_ubicacion">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>BCBAA471-4624-D3BE-E95C-0F358F5B27F7</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0947208B-DC7A-F73D-4D22-9883977A26D2">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>DFA883A7-22C8-1CAA-D496-3A2AAEF085B9</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A75EDEA0-32A4-EBD3-CC4B-B1ACA2393896">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>C1BB4348-B318-E28A-8862-DC7EB8AC4026</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="A9C971BF-A842-A251-970A-BF9E8B38C245">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>19CA4B80-528F-8A5E-DC9A-06FBAAA5B77E</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="941B44B9-22A7-0563-8B9F-DF14638B28A2">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>75FE701B-1C81-A93E-608B-68E803E4A65E</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="DECE60E0-BAA3-497E-00FF-CD6F2385BEE1">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>23359A39-ECDC-1872-52FB-E5E51EC3751B</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_ubicacion_tipo_id" id="15CAF14A-0486-C13C-00E1-A547C8723761">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>77E38FF3-32F6-30A5-B369-485AD75C199B</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0813A9F7-6D9C-1B58-D486-5E3936E4D055" referredColumn="008B226D-3F25-282D-79F4-3511DD9A7B41"/>
+</associations>
+</Column>
+<Column name="direccion_ubicacion_id" id="9A4F9993-7601-3C13-C6B1-C2BE46F0B3E5">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>8BD142FE-DDCC-2B52-8EC6-FC450D69A141</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B86278B-24E6-35B3-DD0C-CAFEB254FCE6" referredColumn="0947208B-DC7A-F73D-4D22-9883977A26D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29FBC7AD-E4E4-3818-54EE-5691BD0B56A1" name="direccion_ubicacion_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>7BB1F9CF-52A6-1705-32F9-F6A207808EC5</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0947208B-DC7A-F73D-4D22-9883977A26D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D4A07F-D2C6-D954-17DE-AFBB80F7D4BF" name="direccion_ubicacion_direccion_ubicacion_tipo_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>5F5C99B5-7495-EB30-788B-5068CF39DE40</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15CAF14A-0486-C13C-00E1-A547C8723761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8272A3C-7149-DB8D-E613-D006A1981D03" name="direccion_ubicacion_direccion_ubicacion_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>3EF2C7E8-84A6-EA11-EEAE-28ADC0DDE99D</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A4F9993-7601-3C13-C6B1-C2BE46F0B3E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

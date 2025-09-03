@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50EC77BE-D3ED-4F87-86A0-EB7114BCBC61" name="camponato_detalle">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:08 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="23C5C096-91AB-7B60-C3FC-BED8E3162328">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:08 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="E9A5943F-B24B-329A-491E-A54FCE89B145">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:08 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="FF77E133-6558-1066-5A7B-1DF84352C58B">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:08 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="0A3DA6F0-72CA-37AD-E374-0DE2C5E721F1">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:08 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="2858CB2A-29DE-7EFC-027A-2BFD728D60DB">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:59 UTC</createdTime>
+<generatorID>1DEF3ADE-AAE7-C9C2-68F5-A4E35922A1C4</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<referedAttribute>568B1057-0C7A-B8A5-737B-E9F6A9583B4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="16ECAC5B-32DD-6666-0E65-FA349CBABCEB">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:27:18 UTC</createdTime>
+<generatorID>330A0185-FF1F-7495-3FDC-529F7EBFB554</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<referedAttribute>9E21889D-4E66-6C90-84FD-07D4AF5EC964</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="CCC555B8-0493-3A3E-450E-C1F9902CA45A">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:27:27 UTC</createdTime>
+<generatorID>077DECCD-183C-9594-7DEE-BDB1D50DB2E5</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<referedAttribute>53084F54-7D19-D844-D6B9-C4037A2DCD88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66EE04A9-43EF-DC30-9907-BE07193872F3" name="camponato_detalle PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:26:23 UTC</createdTime>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23C5C096-91AB-7B60-C3FC-BED8E3162328</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

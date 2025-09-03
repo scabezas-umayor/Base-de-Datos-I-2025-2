@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="846A6062-D4A7-25D0-AD83-06929FDD4FC2" name="recinto">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>67803371-006F-A9CB-8BF4-3FCB3215D638</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="92A52211-9C33-F25A-8FEE-3814E910A6B9">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>7ADF9703-A250-63CB-B58B-9C07855AA70D</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="540E7F1B-6340-EEC9-3604-7D583D56A752">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>8D7DE5AA-AD3A-7525-4A38-C0D05D957225</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="B16A5DBF-2230-537F-18DE-0CADF07D3351">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>29616AC4-B561-6ED6-47E2-557F559BDF80</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aforo" id="E874A0B6-13D7-13F7-BAB3-56011211C504">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>DBAA2779-6C63-381C-C4A7-E2E42C882CAE</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="C2856CB6-B06D-CE8D-A3D0-B9089D9C6E31">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>B31327AF-05F6-90B3-5278-A3F697CBC0EB</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="D2F3546F-EA21-8935-1A3E-EEC3E31E06BC">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>C93F8BAE-5726-71ED-6D49-392B9332FBA5</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="B5D15989-610B-AB78-8C0C-8B6BD75BB7CA">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>39197EE3-0104-ED8B-C0CC-85CA55F9E8B1</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_id" id="12A336DC-C796-ED4F-7E06-BBD0F225559A">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>071D87F4-270B-D68E-83BE-EC36EC04AC7E</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B82A6B92-FBC9-D8CA-4F7B-13F81BE56F2B" referredColumn="398991D7-900F-8EC1-4C96-8A3ACFFDCFCF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCD23EAF-BE84-8C29-0EE8-C33CC8373D9E" name="recinto_PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:07:01 UTC</createdTime>
+<generatorID>6FA2D549-781E-7BA8-DC49-67A46DAF5CD7</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92A52211-9C33-F25A-8FEE-3814E910A6B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00C5F65E-8762-FE39-6761-14963314A746" name="recinto_direccion_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>A45044AD-2744-CD27-F144-ACEDA593B7EE</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12A336DC-C796-ED4F-7E06-BBD0F225559A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

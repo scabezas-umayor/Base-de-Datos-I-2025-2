@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E464CDA-6104-C260-474D-E926AB5F5882" containerWithKeyObject="D62260A3-27C2-9F7B-5BC4-2A2B1BF68990" localFKIndex="2B55994C-ABB2-719D-FDE4-5A37AE4E70B5" name="premio_posicion_camponato_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>44D9623E-019E-F47B-21EB-9CF31B4047D0</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<referredTableLongName>camponato</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C554B848-C51D-795C-0121-33422F4B99C1</referredTableID>
+<keyObject>C5C899AA-858F-D707-AAB4-F6546239DB49</keyObject>
+<referredKeyID>C5C899AA-858F-D707-AAB4-F6546239DB49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

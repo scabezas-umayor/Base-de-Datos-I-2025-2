@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ADBEF14-65E7-DA67-720C-49207C4C8131" name="documento_identidad">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:12:04 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E9B539F7-9C14-99B5-FB2D-D31630C7D879">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:12:04 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="035CC726-D14E-9F7F-7EED-8AC4F72177BC">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:12:04 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="32531470-A9BE-505A-3D95-A03BB67442B7">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:12:04 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="5D212E79-76BF-9771-08A3-8AA426D40CFC">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:12:04 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="5870FA6A-3A84-2942-FE37-92F0F8B20327">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:12:04 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B6C1A5DA-32AA-ACEB-3641-23A9CE451598">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:15:47 UTC</createdTime>
+<generatorID>CD2C80E6-03A8-3EEB-E4F4-042BA1B89652</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<referedAttribute>902F0246-E3AD-A196-E686-E5C60F8A2799</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="272716C4-3422-1B23-EAF9-6FD7FB3FA5F2">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:17:15 UTC</createdTime>
+<generatorID>23C841CB-4218-385F-64A3-D631A7201FDB</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<referedAttribute>0EC90731-BC87-0A33-B4C1-C8B67FE0050A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="67502B32-DA2C-7F90-A23B-88DD7AEFF13C">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:19:24 UTC</createdTime>
+<generatorID>4B8549EA-8964-5D26-A90A-01E789D78D6D</generatorID>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<referedAttribute>8EA32F35-5A39-E247-4EF2-9A7EC8C2E4C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF211302-2640-3009-203B-A5EF41E6991B" name="documento_identidad PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:14:25 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9B539F7-9C14-99B5-FB2D-D31630C7D879</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

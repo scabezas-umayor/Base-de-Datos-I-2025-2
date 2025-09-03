@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB1E2BA5-DB28-39BD-6CA2-7EBC9877A71D" name="patrocinador_rubro">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:12 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0D5C13FE-B5B2-9F9F-DF05-3268205B02CE">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:12 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="22E8F27B-F9D2-A967-4B2E-5818CF3FE592">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:12 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="B5B9AC55-3970-4164-B404-C507B191FA1B">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:12 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="16B61455-73EC-2FC8-E64F-D0E4AE012D3C">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:12 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="0A917FD1-AE2C-B167-6FFB-89090539056B">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:12 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F31D4A7C-FEF8-31B6-D16B-1D347D9CAD18" name="patrocinador_rubro PK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-20 14:26:26 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D5C13FE-B5B2-9F9F-DF05-3268205B02CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

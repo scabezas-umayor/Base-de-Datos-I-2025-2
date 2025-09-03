@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFE1005E-EFA8-FB01-03EC-1CA8EA1A0CD9" containerWithKeyObject="A79D2296-3EBE-5ED5-1CDE-CBB31E6FC599" localFKIndex="7581B1BF-8BC5-3C13-4849-A29A5BCA6147" name="camponato_detalle_integrante_FK">
+<createdBy>umayor</createdBy>
+<createdTime>2025-09-03 14:30:05 UTC</createdTime>
+<generatorID>077DECCD-183C-9594-7DEE-BDB1D50DB2E5</generatorID>
+<ownerDesignName>modelo_v3_030925</ownerDesignName>
+<referredTableLongName>integrante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B736ADD6-CB1E-88A9-DC5D-926153233FAD</referredTableID>
+<keyObject>323AF82C-B556-FC7D-B6AA-3341B00BBC28</keyObject>
+<referredKeyID>323AF82C-B556-FC7D-B6AA-3341B00BBC28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

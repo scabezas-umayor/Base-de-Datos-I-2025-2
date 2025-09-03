@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="patrocinadores_rubros" directorySegmentName="seg_0" id="D7583634-DDC0-2159-D2AA-B85AE3B5E507">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:01:44 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<sourcePk>038CE49C-C57D-637B-3317-69364FDF23EC</sourcePk>
+<targetPk>F31D4A7C-FEF8-31B6-D16B-1D347D9CAD18</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0887576D-942C-71CA-2ADE-59D5BDA9D3A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB1E2BA5-DB28-39BD-6CA2-7EBC9877A71D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="id" id="9AC6B28A-9E36-5D73-366D-131C1E78999B">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:08:05 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</attribute>
+<attribute name="created_at" id="C6E8837C-9938-394A-F37B-A497B019DE8F">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:04:00 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+<attribute name="updated_at" id="74EAE9BD-5DF5-6E39-827A-73C61EAA1403">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:04:52 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</attribute>
+<attribute name="activo" id="75FA58C6-DE84-E939-B5D9-E1CD9A9A5066">
+<createdBy>umayor</createdBy>
+<createdTime>2025-08-27 14:05:05 UTC</createdTime>
+<ownerDesignName>modelo_v2_270825</ownerDesignName>
+<engineerTo>
+<item key="8A2F92C2-95B4-CFCA-78F4-4842DD3DCB77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

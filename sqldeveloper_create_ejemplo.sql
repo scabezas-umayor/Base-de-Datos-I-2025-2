@@ -1,0 +1,36 @@
+DROP TABLE ejemplo;
+
+CREATE TABLE EJEMPLO(
+    id NUMBER(8) PRIMARY KEY,
+    nombre VARCHAR2(50) NOT NULL UNIQUE,
+    activo NUMBER(1) DEFAULT 0 NOT NULL,
+    created_at TIMESTAMP DEFAULT SYSDATE NOT NULL  
+);
+
+DROP SEQUENCE seq_ejemplo;
+
+CREATE SEQUENCE seq_ejemplo START WITH 1 INCREMENT BY 1;
+
+INSERT INTO ejemplo (id, nombre) VALUES (seq_ejemplo.NEXTVAL, 'Valor1');
+
+COMMIT;
+
+SELECT * FROM ejemplo;
+
+CREATE OR REPLACE FUNCTION fx_ejemploADD (p_nombre VARCHAR2) RETURN NUMBER IS
+BEGIN
+    INSERT INTO ejemplo (id, nombre, activo) VALUES (seq_ejemplo.NEXTVAL, p_nombre, 1);
+    COMMIT;
+    RETURN 1;
+EXCEPTION
+    WHEN OTHERS THEN
+        RETURN 0;
+END;
+
+SET SERVEROUTPUT ON;
+
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('INSERTO? '||fx_ejemploADD('Desde Bloque Anonimo'));
+END;
+
+SELECT * FROM ejemplo;
